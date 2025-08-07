@@ -27,18 +27,26 @@ export default function Index() {
                 title="Daily calories"
                 subtitle="2000 kcal"
                 icon={icons.calories}
+                innerText="80%"
               />
               <Card
                 title="Macronutrients"
                 subtitle=""
                 icon={icons.macronutrients}
+                innerText="60%"
               />
               <Card
                 title="Vitamins"
                 subtitle="micronutrients"
                 icon={icons.vitamins}
+                innerText="60%"
               />
-              <Card title="Minerals" subtitle="micronutrients" />
+              <Card
+                title="Minerals"
+                subtitle="micronutrients"
+                icon={icons.minerals}
+                innerText="60%"
+              />
             </View>
           </View>
         </View>
